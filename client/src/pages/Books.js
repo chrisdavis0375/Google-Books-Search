@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Test from "../components/Test";
+import Nav from "../components/Nav";
 import API from "../utils/API";
 
 class Books extends Component {
@@ -12,7 +12,7 @@ class Books extends Component {
   render() {
     return (
       <div>
-        <Test />
+        <Nav />
       </div>
     );
   }
