@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const PORT = process.env.PORT || 3000;
+//require("./routes/apiRoutes")(app);
 
 // MIDDLEWARE
 app.use(express.urlencoded({ extended: true }));
